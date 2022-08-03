@@ -1,5 +1,11 @@
 # Top Rick and Morty
-## How to run on local
+
+During the implementation of this exercise I prioritized robustness, code testability and client-server performance. For the styling, I modified the Materio MUI template. The` @core` folder contains stripped down code from Materio.
+
+Live demo here: https://top-rickandmorty.vercel.app
+
+-------
+## How to run in local
 
 - Prerequisites: `docker`
 
@@ -13,6 +19,10 @@
 
 Make sure your port 3000 is free, your internet connection is stable and and you have enough space and memory to run Docker.
 
+---------------
+## Known Issues
+
+There is some flickering on the rendering that is more apparent on Vercel. In local usually doesn't show.
 
 ---------------
 ## Development environment
@@ -23,3 +33,10 @@ If you'd like to start a dev-friendly environment, I'd recommend you to use the 
 
 - `npm run dev`
 - `npm test`
+
+-----------------
+
+## Check some of my other open sourced projects:
+
+- [display-sim](https://github.com/theypsilon/display-sim): Lit, WASM, Rust, and WebGL experimental simulation that runs on the browser but can also run on native targets.
+- [MiSTer Downloader](https://github.com/MiSTer-devel/Downloader_MiSTer/): Package Manager written in Python with strong emphasis on robustness, performance and security, designed for the *MiSTer FPGA* ecosytem.
