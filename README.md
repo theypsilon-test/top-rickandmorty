@@ -1,6 +1,6 @@
 # Top Rick and Morty
 
-During the implementation of this exercise I prioritized robustness, code testability and client-server performance. For the styling, I modified the Materio MUI template. The` @core` folder contains stripped down code from Materio.
+During the implementation of this exercise, I prioritized robustness, code testability and client-server performance. For the styling, I modified the Materio MUI template. The` @core` folder contains stripped-down code from Materio.
 
 Live demo here: https://top-rickandmorty.vercel.app
 
@@ -19,20 +19,21 @@ Live demo here: https://top-rickandmorty.vercel.app
 
 Make sure your port 3000 is free, your internet connection is stable and and you have enough space and memory to run Docker.
 
----------------
-## Known Issues
-
-There is some flickering on the rendering that is more apparent on Vercel. In local usually doesn't show.
 
 ---------------
 ## Development environment
 
-The previous method is indicated to run a production-like environment on your local machine. This is ideal for doing QA of the project, and for identifying issues that would show up in the CI pipeline or in production only. But unfortunately, it's not the best experience for development.
+The previous method is indicated to run a production-like environment on your local machine. This is ideal for doing QA of the project, and for identifying issues that would show up in the CI pipeline or production only. But unfortunately, it's not the best experience for development.
 
 If you'd like to start a dev-friendly environment, I'd recommend you to use the standard **npm** commands for **Next.js** projects:
 
 - `npm run dev`
 - `npm test`
+
+---------------
+## Known Issues
+
+There is some flickering on the initial rendering that is more apparent on Vercel. In local usually doesn't show.
 
 -----------------
 
