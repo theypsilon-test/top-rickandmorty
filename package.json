@@ -47,9 +47,5 @@
     "jest-environment-jsdom": "^28.1.3",
     "jest-mock-extended": "^2.0.7",
     "typescript": "4.7.4"
-  },
-  "installConfig": {
-    "pnp": true
-  },
-  "packageManager": "yarn@1.22.0"
+  }
 }
